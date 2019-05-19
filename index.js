@@ -46,10 +46,11 @@ var drawBG = ()=>{
 	ctx.fillStyle = "black";
 	ctx.fillRect(0,0,500,500);
 };
-
+//Fixed Lost Function.
 var lost = ()=>{
+	window.location.reload();
 	alert('You Lost!');
-	dots = 5;
+	//dots = 5;
 };
 
 var move = ()=>{
