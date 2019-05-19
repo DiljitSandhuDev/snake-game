@@ -49,7 +49,7 @@ var drawBG = ()=>{
 //Fixed Lost Function.
 var lost = ()=>{
 	window.location.reload();
-	alert('You Lost!');
+	//alert('You Lost!');
 	//dots = 5;
 };
 
